@@ -1,0 +1,395 @@
+/**
+ * IPMF 
+ * Copyright 2015 Tempo 360 
+ * 
+ * Helper classes for applying margin.
+ *
+ *
+ *   
+ */
+
+/* basic */
+.ipmf-margin {
+    margin: 20px !important;
+}
+
+.ipmf-margin-top {
+    margin-top: 20px !important;
+}
+
+.ipmf-margin-right {
+    margin-right: 20px !important;
+}
+
+.ipmf-margin-bottom {
+    margin-bottom: 20px !important;
+}
+
+.ipmf-margin-left {
+    margin-left: 20px !important;
+}
+
+.ipmf-margin-v {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.ipmf-margin-h {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+
+.ipmf-margin-auto-right {
+    margin-right: auto !important;
+}
+
+.ipmf-margin-auto-left {
+    margin-left: auto !important;
+}
+
+
+/* 5 */
+.ipmf-margin-5{
+    margin: 5px !important;
+}
+
+.ipmf-margin-5-top {
+    margin-top: 5px !important;
+}
+
+.ipmf-margin-5-right {
+    margin-right: 5px !important;
+}
+
+.ipmf-margin-5-bottom {
+    margin-bottom: 5px !important;
+}
+
+.ipmf-margin-5-left {
+    margin-left: 5px !important;
+}
+
+.ipmf-margin-5-v {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.ipmf-margin-5-h {
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+}
+
+/* 10 */
+.ipmf-margin-10 {
+    margin: 10px !important;
+}
+
+.ipmf-margin-10-top {
+    margin-top: 10px !important;
+}
+
+.ipmf-margin-10-right {
+    margin-right: 10px !important;
+}
+
+.ipmf-margin-10-bottom {
+    margin-bottom: 10px !important;
+}
+
+.ipmf-margin-10-left {
+    margin-left: 10px !important;
+}
+
+.ipmf-margin-10-v {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.ipmf-margin-10-h {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+/* 15 */
+.ipmf-margin-15 {
+    margin: 15px !important;
+}
+
+.ipmf-margin-15-top {
+    margin-top: 15px !important;
+}
+
+.ipmf-margin-15-right {
+    margin-right: 15px !important;
+}
+
+.ipmf-margin-15-bottom {
+    margin-bottom: 15px !important;
+}
+
+.ipmf-margin-15-left {
+    margin-left: 15px !important;
+}
+
+.ipmf-margin-15-v {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.ipmf-margin-15-h {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+}
+
+/* 25 */
+.ipmf-margin-25 {
+    margin: 25px !important;
+}
+
+.ipmf-margin-25-top {
+    margin-top: 25px !important;
+}
+
+.ipmf-margin-25-right {
+    margin-right: 25px !important;
+}
+
+.ipmf-margin-25-bottom {
+    margin-bottom: 25px !important;
+}
+
+.ipmf-margin-25-left {
+    margin-left: 25px !important;
+}
+
+.ipmf-margin-25-v {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+.ipmf-margin-25-h {
+    margin-right: 25px !important;
+    margin-left: 25px !important;
+}
+
+/* 30 */
+.ipmf-margin-30 {
+    margin: 30px !important;
+}
+
+.ipmf-margin-30-top {
+    margin-top: 30px !important;
+}
+
+.ipmf-margin-30-right {
+    margin-right: 30px !important;
+}
+
+.ipmf-margin-30-bottom {
+    margin-bottom: 30px !important;
+}
+
+.ipmf-margin-30-left {
+    margin-left: 30px !important;
+}
+
+.ipmf-margin-30-v {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.ipmf-margin-30-h {
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+}
+
+
+/* 35 */
+.ipmf-margin-35 {
+    margin: 35px !important;
+}
+
+.ipmf-margin-35-top {
+    margin-top: 35px !important;
+}
+
+.ipmf-margin-35-right {
+    margin-right: 35px !important;
+}
+
+.ipmf-margin-35-bottom {
+    margin-bottom: 35px !important;
+}
+
+.ipmf-margin-35-left {
+    margin-left: 35px !important;
+}
+
+.ipmf-margin-35-v {
+    margin-top: 35px !important;
+    margin-bottom: 35px !important;
+}
+
+.ipmf-margin-35-h {
+    margin-right: 35px !important;
+    margin-left: 35px !important;
+}
+
+/* 40 */
+.ipmf-margin-40 {
+    margin: 40px !important;
+}
+
+.ipmf-margin-40-top {
+    margin-top: 40px !important;
+}
+
+.ipmf-margin-40-right {
+    margin-right: 40px !important;
+}
+
+.ipmf-margin-40-bottom {
+    margin-bottom: 40px !important;
+}
+
+.ipmf-margin-40-left {
+    margin-left: 40px !important;
+}
+
+.ipmf-margin-40-v {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+.ipmf-margin-40-h {
+    margin-right: 40px !important;
+    margin-left: 40px !important;
+}
+
+/* 50 */
+.ipmf-margin-50 {
+    margin: 50px !important;
+}
+
+.ipmf-margin-50-top {
+    margin-top: 50px !important;
+}
+
+.ipmf-margin-50-right {
+    margin-right: 50px !important;
+}
+
+.ipmf-margin-50-bottom {
+    margin-bottom: 50px !important;
+}
+
+.ipmf-margin-50-left {
+    margin-left: 50px !important;
+}
+
+.ipmf-margin-50-v {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.ipmf-margin-50-h {
+    margin-right: 50px !important;
+    margin-left: 50px !important;
+}
+
+
+/* 60 */
+.ipmf-margin-60 {
+    margin: 60px !important;
+}
+
+.ipmf-margin-60-top {
+    margin-top: 60px !important;
+}
+
+.ipmf-margin-60-right {
+    margin-right: 60px !important;
+}
+
+.ipmf-margin-60-bottom {
+    margin-bottom: 60px !important;
+}
+
+.ipmf-margin-60-left {
+    margin-left: 60px !important;
+}
+
+.ipmf-margin-60-v {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
+
+.ipmf-margin-60-h {
+    margin-right: 60px !important;
+    margin-left: 60px !important;
+}
+
+
+/* 80 */
+.ipmf-margin-80 {
+    margin: 80px !important;
+}
+
+.ipmf-margin-80-top {
+    margin-top: 80px !important;
+}
+
+.ipmf-margin-80-right {
+    margin-right: 80px !important;
+}
+
+.ipmf-margin-80-bottom {
+    margin-bottom: 80px !important;
+}
+
+.ipmf-margin-80-left {
+    margin-left: 80px !important;
+}
+
+.ipmf-margin-80-v {
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+}
+
+.ipmf-margin-80-h {
+    margin-right: 80px !important;
+    margin-left: 80px !important;
+}
+
+
+/* none */
+.ipmf-no-margin {
+    margin: 0 !important;
+}
+
+.ipmf-no-margin-top {
+    margin-top: 0 !important;
+}
+
+.ipmf-no-margin-right {
+    margin-right: 0 !important;
+}
+
+.ipmf-no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.ipmf-no-margin-left {
+    margin-left: 0 !important;
+}
+
+.ipmf-no-margin-v {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.ipmf-no-margin-h {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+

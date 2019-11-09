@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'ipmf-svg-icons';
+    src:    url('src/fonts/fonts-svg/ipmf-svg-icons.eot?mbz1sd');
+    src:    url('src/fonts/fonts-svg/ipmf-svg-icons.eot?mbz1sd#iefix') format('embedded-opentype'),
+        url('src/fonts/fonts-svg/ipmf-svg-icons.ttf?mbz1sd') format('truetype'),
+        url('src/fonts/fonts-svg/ipmf-svg-icons.woff?mbz1sd') format('woff'),
+        url('src/fonts/fonts-svg/ipmf-svg-icons.svg?mbz1sd#ipmf-svg-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ipmf-svg-"], [class*=" ipmf-svg-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'ipmf-svg-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ipmf-nav-icon:before{
+    display: inline-block;
+	text-align: center;
+	font-size: 36px;
+	content: "";
+	background-repeat: no-repeat;
+}
+
+.ipmf-svg-hamburger-icon:before {
+    content: "\e921";
+}
+.ipmf-svg-search-icon:before {
+    content: "\e922";
+}
+.ipmf-svg-calender-icon:before {
+    content: "\e920";
+}
+.ipmf-svg-actions-icon:before {
+    content: "\e900";
+}
+.ipmf-svg-activitytracking-icon:before {
+    content: "\e901";
+}
+.ipmf-svg-add-icon:before {
+    content: "\e902";
+}
+.ipmf-svg-agency-icon:before {
+    content: "\e903";
+}
+.ipmf-svg-backward-arrow-icon:before {
+    content: "\e904";
+}
+.ipmf-svg-centralfile-icon:before {
+    content: "\e905";
+}
+.ipmf-svg-newdocument-icon:before {
+    content: "\e906";
+}
+.ipmf-svg-cross-thick-icon:before {
+    content: "\e907";
+}
+.ipmf-svg-cross-thin-icon:before {
+    content: "\e908";
+}
+.ipmf-svg-doublearrowleft-icon:before {
+    content: "\e909";
+}
+.ipmf-svg-doublearrowright-icon:before {
+    content: "\e90a";
+}
+.ipmf-svg-downarrow-icon:before {
+    content: "\e90b";
+}
+.ipmf-svg-dropdown-icon:before {
+    content: "\e90c";
+}
+.ipmf-svg-export-icon:before {
+    content: "\e90d";
+}
+.ipmf-svg-fiscal-icon:before {
+    content: "\e90e";
+}
+.ipmf-svg-forward-arrow-icon:before {
+    content: "\e90f";
+}
+.ipmf-svg-help-icon:before {
+    content: "\e910";
+}
+.ipmf-svg-import-icon:before {
+    content: "\e911";
+}
+.ipmf-svg-leftarrow-icon:before {
+    content: "\e912";
+}
+.ipmf-svg-lock-icon:before {
+    content: "\e913";
+}
+.ipmf-svg-map-icon:before {
+    content: "\e914";
+}
+.ipmf-svg-myworkspace-icon:before {
+    content: "\e915";
+}
+.ipmf-svg-masterfile-icon:before {
+    content: "\e916";
+}
+.ipmf-svg-reports-icon:before {
+    content: "\e917";
+}
+.ipmf-svg-rightarrow-icon:before {
+    content: "\e918";
+}
+.ipmf-svg-select-icon:before {
+    content: "\e919";
+}
+.ipmf-svg-settings-icon:before {
+    content: "\e91a";
+}
+.ipmf-svg-pin-icon:before {
+    content: "\e91b";
+}
+.ipmf-svg-tools-icon:before {
+    content: "\e91c";
+}
+.ipmf-svg-user-icon .path1:before {
+    content: "\e91d";
+    color: rgb(36, 149, 202);
+}
+.ipmf-svg-user-icon .path2:before {
+    content: "\e91e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.ipmf-svg-user-icon .path3:before {
+    content: "\e91f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}

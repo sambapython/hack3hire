@@ -1,0 +1,155 @@
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-sidebar {
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 50px;
+    height:calc(100vh - 105px);
+    padding: 0 5px;
+    background-color: #1b1b1b;
+    z-index: 1000;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-sidebar ul{
+  padding-top: 15px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+
+.nav-sidebar ul li{
+  line-height: 60px;
+  list-style: none; 
+}
+
+.nav-sidebar ul li span, .nav-sidebar ul li a{
+	display: block;
+	height: 60px;
+	padding: 0 10px;
+	text-decoration: none;
+	text-transform : uppercase;
+	color: #FFF;
+	font-family: arial;
+	font-size: 16px;
+    white-space:nowrap;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-sidebar ul li a:hover{
+	background-color: #222;
+}
+
+
+.nav-item.nav-search {
+  margin-left: 2rem;
+}
+
+.d-none{
+  display: none !important;
+}
+
+
+@media (min-width: 992px) {
+  .d-lg-none {
+    display: none !important;
+  }
+  .d-lg-inline {
+    display: inline !important;
+  }
+  .d-lg-inline-block {
+    display: inline-block !important;
+  }
+  .d-lg-block {
+    display: block !important;
+  }
+  .d-lg-table {
+    display: table !important;
+  }
+  .d-lg-table-row {
+    display: table-row !important;
+  }
+  .d-lg-table-cell {
+    display: table-cell !important;
+  }
+  .d-lg-flex, .navbar .navbar-menu-wrapper .navbar-nav.navbar-nav-right .nav-item.nav-settings {
+    display: flex !important;
+  }
+  .d-lg-inline-flex {
+    display: inline-flex !important;
+  }
+}
+
+table {
+  width: 100%;
+}
+
+.mat-toolbar.mat-primary {
+  background: #b82016;
+  color: #fff;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.dropzone {
+  min-height: 20px;
+  min-width: 20px;
+  display: table;
+  width: 50%;
+  background-color: #eee;
+  border: dotted 1px #aaa;
+}
+
+.text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.centered {
+  font-family: sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align:center;
+}
+
+button:hover {color: #1a86c5;}
+
+.progress-bar{
+
+  background-color:#a29a8b !important;  
+  
+  }
+
+
+
+

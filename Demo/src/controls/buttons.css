@@ -1,0 +1,76 @@
+/* Buttons */
+.ipmf-btn-primary-large {
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	background: #227ca8;
+	border: 2px solid #227ca8;
+	border-radius:.4em;
+	margin-right: 2em;
+	padding: .75em 2em;
+}
+.ipmf-btn-primary-large.selected {
+	background: #174972;
+	border: 2px solid #174972;
+}
+.ipmf-btn-primary-large:hover {
+	background: #1b637f;
+	border: 2px solid #227ca8;
+}
+
+.ipmf-btn-primary-small {
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	background: #227ca8;
+	border: 2px solid #227ca8;
+	border-radius:.4em;
+	margin-right: 2em;
+	padding: .5em 2em;
+}
+.ipmf-btn-primary-small.selected {
+	background: #174972;
+	border: 2px solid #174972;
+}
+.ipmf-btn-primary-small:hover {
+	background: #1b637f;
+	border: 2px solid #227ca8;
+}
+
+.ipmf-btn-secondary-large {
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: transparent;
+	border: 2px solid #227ca8;
+	border-radius:.4em;
+	margin-right: 2em;
+	padding: .75em 2em;
+}
+.ipmf-btn-secondary-large.selected {
+	border: 2px solid #174972;
+}
+.ipmf-btn-secondary-large:hover {
+	border: 2px solid #1b637f;
+}
+
+.ipmf-btn-secondary-small {
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: transparent;
+	border: 2px solid #227ca8;
+	border-radius:.4em;
+	margin-right: 2em;
+	padding: .5em 2em;
+}
+.ipmf-btn-secondary-small.selected {
+	border: 2px solid #174972;
+}
+.ipmf-btn-secondary-small:hover {
+	border: 2px solid #1b637f;
+}

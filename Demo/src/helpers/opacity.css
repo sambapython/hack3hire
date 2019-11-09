@@ -1,0 +1,54 @@
+/**
+ * IPMF 
+ * Copyright 2015 Tempo 360 
+ * 
+ * Helper classes for applying opacity.
+ *
+ *
+ *   
+ */
+
+.ipmf-opacity-0 {
+    opacity: 0 !important;
+}
+
+.ipmf-opacity-10 {
+    opacity: .1 !important;
+}
+
+.ipmf-opacity-20 {
+    opacity: .2 !important;
+}
+
+.ipmf-opacity-30 {
+    opacity: .3 !important;
+}
+
+.ipmf-opacity-40 {
+    opacity: .4 !important;
+}
+
+.ipmf-opacity-50 {
+    opacity: .5 !important;
+}
+
+.ipmf-opacity-60 {
+    opacity: .6 !important;
+}
+
+.ipmf-opacity-70 {
+    opacity: .7 !important;
+}
+
+.ipmf-opacity-80 {
+    opacity: .8 !important;
+}
+
+.ipmf-opacity-90 {
+    opacity: .9 !important;
+}
+
+.ipmf-opacity-100 {
+    opacity: 1 !important;
+}
+

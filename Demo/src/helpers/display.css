@@ -1,0 +1,62 @@
+/**
+ * IPMF 
+ * Copyright 2015 Tempo 360 
+ * 
+ *
+ *
+ *  1. Element Types
+ *  2. Remove Psudo Elements
+ *  3. Circle
+ */
+
+/* 1. Element Types */
+.ipmf-block {
+    display: block !important;
+}
+
+.ipmf-inline-block {
+    display: inline-block !important;
+}
+
+.ipmf-inline {
+    display: inline !important;
+}
+
+.ipmf-table {
+    display: table !important;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.ipmf-table-row {
+    display: table-row !important;
+}
+
+.ipmf-table-cell {
+    display: table-cell !important;
+    float: none !important;
+}
+
+.ipmf-table-fixed {
+    table-layout: fixed !important;
+}
+
+.ipmf-table-auto {
+    table-layout: auto !important;
+}
+
+
+/* 2. Remove Psudo Elements */
+.ipmf-remove-psudo-both:after,
+.ipmf-remove-psudo-both:before,
+.ipmf-remove-psudo-after:after,
+.ipmf-remove-psudo-before:before {
+    content: none !important;
+}
+
+
+/* 3. Circle */
+.ipmf-display-circle {
+    border-radius: 50% !important;
+}
+

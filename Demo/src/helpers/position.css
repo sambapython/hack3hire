@@ -1,0 +1,109 @@
+/**
+ * IPMF 
+ * Copyright 2015 Tempo 360 
+ * 
+ * Helper classes for applying positioning.
+ *
+ *
+ *  1. Regular
+ *  2. Directions
+ *  3. Transform (Degree)
+ */
+
+/* 1. Regular */
+.ipmf-pos-static {
+    position: static !important;
+}
+
+.ipmf-pos-relative {
+    position: relative !important;
+}
+
+.ipmf-pos-absolute {
+    position: absolute !important;
+}
+
+.ipmf-pos-fixed {
+    position: fixed !important;
+}
+
+
+/*
+@media (min-width: 1240px) {
+    .ipmf-pos-static-lg {
+        position: static !important;
+    }
+
+    .ipmf-pos-relative-lg {
+        position: static !important;
+    }
+
+    .ipmf-pos-absolute-lg {
+        position: absolute !important;
+    }
+
+    .ipmf-pos-fixed-lg {
+        position: fixed !important;
+    }
+}
+*/
+
+
+
+/* 2. Directions */
+.ipmf-right-responsive,
+.ipmf-left-responsive {
+    transition: right .5s cubic-bezier(.55,0,.1,1);
+}
+
+.ipmf-right-responsive {
+    right: 30px;
+}
+
+.ipmf-left-responsive {
+    left: 30px;
+}
+
+
+
+
+/* 3. Transform (Degree) */
+.ipmf-rotate-90 {
+    -webkit-transform: rotate(90deg) !important;
+        -ms-transform: rotate(90deg) !important;
+            transform: rotate(90deg) !important;
+}
+
+.ipmf-rotate-180 {
+    -webkit-transform: rotate(180deg) !important;
+        -ms-transform: rotate(180deg) !important;
+            transform: rotate(180deg) !important;
+}
+
+.ipmf-rotate-270 {
+    -webkit-transform: rotate(270deg) !important;
+        -ms-transform: rotate(270deg) !important;
+            transform: rotate(270deg) !important;
+}
+
+
+
+@media (min-width: 1240px) {
+    .ipmf-rotate-90-lg {
+        -webkit-transform: rotate(90deg) !important;
+            -ms-transform: rotate(90deg) !important;
+                transform: rotate(90deg) !important;
+    }
+
+    .ipmf-rotate-180-lg {
+        -webkit-transform: rotate(180deg) !important;
+            -ms-transform: rotate(180deg) !important;
+                transform: rotate(180deg) !important;
+    }
+
+    .ipmf-rotate-270-lg {
+        -webkit-transform: rotate(270deg) !important;
+            -ms-transform: rotate(270deg) !important;
+                transform: rotate(270deg) !important;
+    }
+}

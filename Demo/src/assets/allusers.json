@@ -1,0 +1,138 @@
+{
+  "usersArray": [
+    {
+      "userEmailID": "villis.patel@utc.com",
+      "lastName": "Patel",
+      "firstName": "Vilis",
+      "secType": "ReadWrite",
+      "defaultEngineCenterName": "MTU Hannover",
+      "defaultLoadPage": "Calendar",
+      "userEngineCenters": [
+        {
+          "engineCenterID": "EC1",
+          "engineCenterName": "Columbus",
+          "defaultEngineGroup": "V2500-A5",
+          "userEngineGroups": [
+            {
+              "engineTypeName": "V2500",
+              "engineGroup": "V2500-A5"
+            },
+            {
+              "engineTypeName": "V2500",
+              "engineGroup": "V2500-D5"
+            },
+            {
+              "engineTypeName": "PW2000",
+              "engineGroup": "PW2000"
+            },
+            {
+              "engineTypeName": "PW1000",
+              "engineGroup": "PW1100-JM"
+            },
+            {
+              "engineTypeName": "PW1000",
+              "engineGroup": "PW1500G"
+            }
+          ]
+        },
+        {
+          "engineCenterID": "EC41",
+          "engineCenterName": "MTU Hannover",
+          "defaultEngineGroup": "PW1100-JM",
+          "userEngineGroups": [
+            {
+              "engineTypeName": "PW2000",
+              "engineGroup": "PW2000"
+            },
+            {
+              "engineTypeName": "PW1000",
+              "engineGroup": "PW1100-JM"
+            },
+            {
+              "engineTypeName": "V2500",
+              "engineGroup": "V2500-A5"
+            },
+            {
+              "engineTypeName": "V2500",
+              "engineGroup": "V2500-S1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "userEmailID": "david.coles@pw.utc.com",
+      "lastName": "Coles",
+      "firstName": "David",
+      "secType": "Read",
+      "defaultEngineCenterName": "Columbus",
+      "defaultLoadPage": "WIP Management",
+      "userEngineCenters": [
+        {
+          "engineCenterID": "EC1",
+          "engineCenterName": "Columbus",
+          "defaultEngineGroup": "V2500-A5",
+          "userEngineGroups": [
+            {
+              "engineTypeName": "V2500",
+              "engineGroup": "V2500-A5"
+            },
+            {
+              "engineTypeName": "V2500",
+              "engineGroup": "V2500-D5"
+            },
+            {
+              "engineTypeName": "PW2000",
+              "engineGroup": "PW2000"
+            },
+            {
+              "engineTypeName": "PW1000",
+              "engineGroup": "PW1100-JM"
+            },
+            {
+              "engineTypeName": "PW1000",
+              "engineGroup": "PW1500G"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "userEmailID": "lakshmi.mahankali@pw.utc.com",
+  "lastName": "Mahankali",
+  "firstName": "Lakshmi",
+  "secType": "Admin",
+      "defaultEngineCenterName": "Columbus",
+      "defaultLoadPage": "Account Management",
+      "userEngineCenters": [
+        {
+          "engineCenterID": "EC1",
+          "engineCenterName": "Columbus",
+          "defaultEngineGroup": "V2500-A5",
+          "userEngineGroups": [
+            {
+              "engineTypeName": "V2500",
+              "engineGroup": "V2500-A5"
+            },
+            {
+              "engineTypeName": "V2500",
+              "engineGroup": "V2500-D5"
+            },
+            {
+              "engineTypeName": "PW2000",
+              "engineGroup": "PW2000"
+            },
+            {
+              "engineTypeName": "PW1000",
+              "engineGroup": "PW1100-JM"
+            },
+            {
+              "engineTypeName": "PW1000",
+              "engineGroup": "PW1500G"
+            }
+          ]
+        }
+      ]
+    }	
+  ]
+}

@@ -1,0 +1,64 @@
+  <!-- <mat-toolbar id="mainToolbar" style="background-color: #0954A0"> -->
+    <mat-toolbar id="mainToolbar" style="background-color: #FFFF">
+      <mat-icon
+        id="toolbarMenu">subject</mat-icon>
+        <!--<img src="./assets/EEMIS_logo.gif"/>-->
+    
+       <div class="col-sm-4 col-md-4 pull-right"> <div><h1 style="font-style: Arial Rounded MT Bold; font-size: 40px; color: #f5f5f5; font-weight: bold;"><img src="./assets/ppl.png"/></h1></div>
+       </div>
+      <div class="col-sm-3 col-md-3npmnnpp pull-right">
+          <i class="material-icons" >
+              <a (click)="search()">search</a>
+              </i><input class="border-bottom" type="textbox"/>
+        </div>
+        <span class="toolbar-spacer"></span>
+      <mat-icon
+        class="toolbar-icon"
+        matBadge="1"
+        matBadgePosition="after"
+        matBadgeColor="accent"
+      >notifications</mat-icon>
+      
+      <mat-icon (click)="logout()">account_circle</mat-icon>
+      <!--<h2>hello world!!</h2>-->
+    </mat-toolbar>
+    
+    
+    <mat-sidenav-container 
+      id="sidenavContainer"
+     fullscreen>
+      <mat-sidenav
+        mode="side"
+        #sidenav
+        id="sidenav"
+      >
+    
+        <mat-list id="menus" >
+            <mat-list-item>
+                <button 
+                class="menu-item"
+                  mat-flat-button>
+                  <mat-icon>home</mat-icon>
+                </button>
+              </mat-list-item>
+          <mat-list-item>
+            <button  
+            class="menu-item"
+              mat-flat-button>
+              <mat-icon>dashboard</mat-icon>
+            </button>
+          </mat-list-item>
+          
+
+        </mat-list>
+    
+       </mat-sidenav>
+    
+      <mat-sidenav-content
+      [ngStyle]="{ 'margin-left.px': contentMargin }"
+      >
+      <router-outlet></router-outlet>
+      
+      <div class="footer"><strong>© 2019 Copyright:</strong>.</div>
+      </mat-sidenav-content>
+    </mat-sidenav-container>

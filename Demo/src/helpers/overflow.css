@@ -1,0 +1,18 @@
+/**
+ * IPMF 
+ * Copyright 2015 Tempo 360 
+ * 
+ * Helper classes for applying overflow.
+ *
+ *
+ *   
+ */
+
+.ipmf-no-overflow {
+    overflow: hidden !important;
+}
+
+.ipmf-no-content {
+    content: none !important;
+}
+

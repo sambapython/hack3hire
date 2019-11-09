@@ -1,0 +1,115 @@
+/* Custom CSS */
+*{
+	outline: 0;
+}
+
+a, a:hover, a:focus{
+	text-decoration: none;
+}
+.ipmf-no-box-shadow{
+	box-shadow: none !important;
+}
+/* Header */
+.header-box-shadow{
+	box-shadow: #cccccc 0px 1px 15px 0px;
+	z-index: 9 !important;
+}
+.header-left{
+	width: 290px;
+}
+.header-right{
+	width: 225px;
+}
+.header-middle{
+	width: calc(100% - 290px - 225px);
+}
+.header-middle-left{
+	width: calc(100% - 160px);
+}
+.header-left, .header-middle, .header-right{
+	min-height: 100px !important;
+}
+
+/*User box section*/
+.header-user-box{
+	margin-top: 25px;
+}
+.header-user-box-dropdown{
+	width: 205px;
+	z-index: 2;
+}
+.header-user-box.active{
+	margin-top: 20px;
+	border-right-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-width: 1px !important;
+}
+.header-user-box.active .user-greeting-section{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+}
+
+/*Hamburger*/
+.hamburger{
+	transition: 0.5s transform;
+}
+
+/*Section-Footer Wrapper*/
+.section-footer-wrapper{
+	overflow-y: auto !important;
+}
+/*Document Content Section*/
+section.document-content-section{
+	/* margin-top: 100px; */
+}
+/* Main Navigation */
+.main-nav-container{
+	width: 110px !important;
+}
+ul.main-navigation{
+	height: 100% !important;
+}
+ul.main-navigation li:not(.active):hover{
+	background-color: #174972 !important;
+}
+/* Footer */
+footer.footer{
+	height: 100px;
+	
+}
+.ipmf-margin-22-left{
+	margin-left: 22px !important;
+}
+.ipmf-margin-22-right{
+	margin-right: 22px !important;
+}
+/*Breadcrumb*/
+.ipmf-breadcrumb{
+    position: fixed;
+    top: 100px;
+    z-index: 5 !important;
+    padding: 22px 15px 15px 25px;
+    width: calc(100% - 175px);
+    z-index: 5;
+    margin-left: 110px;
+    background: #ffffff;
+}
+.ipmf-breadcrumb.expanded{
+	margin-left: auto !important;
+}
+
+/* Inline DropDown styles */
+.dropdown-menu-inline-panel{
+	position: relative !important;
+	z-index: 2 !important;
+}
+
+/* Central File */
+.documents-table{
+	display: none;
+}
+.content-container{
+	width: calc(100% - 110px) !important;
+}

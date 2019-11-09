@@ -1,0 +1,131 @@
+/**
+ * IPMF 
+ * Copyright 2015 Tempo 360 
+ * 
+ * Background image helper classes.
+ *
+ *
+ * Contents:
+ *  1. Colors
+ *  2. Positioning
+ *  3. Sizing
+ */
+
+.ipmf-no-background {
+    background: none !important;
+}
+
+
+
+
+/* 1. Colors */
+.ipmf-bg-transparent {
+    background-color: transparent !important;
+}
+
+.ipmf-bg-default-white {
+    background-color: #ffffff !important;
+}
+
+.ipmf-bg-white {
+    background-color: #eeeeee !important;
+}
+
+.ipmf-bg-grey-light {
+    background-color: #cccccc !important;
+}
+
+.ipmf-bg-grey {
+    background-color: #666666 !important;
+}
+
+.ipmf-bg-black {
+    background-color: #333333 !important;
+}
+
+.ipmf-bg-blue {
+    background-color: #174972 !important;
+}
+
+.ipmf-bg-light-blue {
+    background-color: #217ba7 !important;
+}
+
+.ipmf-bg-sky-blue {
+    background-color: #2495ca !important;
+}
+
+.ipmf-bg-red {
+    background-color: #cc0033 !important;
+}
+
+.ipmf-bg-orange {
+    background-color: #ef7422 !important;
+}
+
+.ipmf-bg-green {
+    background-color: #008824 !important;
+}
+
+.ipmf-bg-light-green {
+    background-color: #68c902 !important;
+}
+
+.ipmf-bg-dark-green {
+    background-color: #247773 !important;
+}
+
+.ipmf-bg-teal {
+    background-color: #7bc6c4 !important;
+}
+
+.ipmf-bg-cyan {
+    background-color: #00afd2 !important;
+}
+
+.ipmf-bg-blue *,
+.ipmf-bg-blue-dark *,
+.ipmf-bg-light-blue *,
+.ipmf-bg-blue-sky *,
+.ipmf-bg-grey  *,
+.ipmf-bg-blue a:hover,
+.ipmf-bg-grey a:hover{
+    color: #eeeeee;
+}
+
+
+
+/* 2. Positioning */
+.ipmf-bg_bottom_left-pad-responsive {
+    background-position: left 40px bottom !important;
+}
+
+.ipmf-bg_bottom-left {
+    background-repeat: no-repeat;
+    -moz-background-position-y: 100%;
+    -o-background-position-y: 100%;
+    background-position-y: 100%;
+}
+
+.ipmf-bg_middle-right {
+    background-repeat: no-repeat;
+    -moz-background-position-x: 150%;
+    -o-background-position-x: 150%;
+    background-position-x: 150%;
+    -moz-background-position-y: 50%;
+    -o-background-position-y: 50%;
+    background-position-y: 50%;
+}
+
+.ipmf-bg_middle-top {
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: -50%;
+}
+
+
+
+/* 3. Sizing */
+.ipmf-bg_max-height {
+    background-size: auto calc(100% - 40px) !important;
+}

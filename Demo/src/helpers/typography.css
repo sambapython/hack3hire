@@ -1,0 +1,56 @@
+/* CGI Typography
+
+CGI Typography Main Font Family
+
+font-family: 'Roboto', sans-serif;
+ */
+
+
+/* CGI Typography Heading Font Styles */
+
+h1 {
+font-size: 34px;
+color: #174972;
+font-weight: 300;
+}
+h2 {
+font-size: 20px;
+color: #217ba7;
+font-weight: 300;
+}
+h3 {
+font-size: 18px;
+color: #217ba7;
+font-weight: 300;
+}
+
+
+ /* CGI Typography Text Types */
+
+.notification {
+font-size: 15px;
+color: #666666;
+font-weight: 300;
+}
+.column-copy {
+font-size: 13px;
+font-weight: 700;
+}
+.progressive-disclosure {
+font-size: 12px;
+color: #333333;
+font-weight: 400;
+}
+.column-header {
+font-size: 11px;
+color: #333333;
+font-weight: 700;
+}
+
+
+/* CGI Typography Roboto Font Styles */
+
+
+
+.ipmf-text-center-h{text-align:center;}
+.ipmf-text-center-v{vertical-align:middle;}

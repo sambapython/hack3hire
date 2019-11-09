@@ -1,0 +1,37 @@
+<div  style="padding:30px 30px;">
+  <span><h1>Medications</h1></span>
+  <span style="float:right;"><a (click)="show()">SEE</a></span>
+  <div *ngIf="details">
+      <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+          <ng-container matColumnDef="medicationName">
+            <th mat-header-cell *matHeaderCellDef> Medication Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.medicationName}} 
+            </td>
+          </ng-container>
+        
+          <ng-container matColumnDef="dosage">
+            <th mat-header-cell *matHeaderCellDef> Dosage </th>
+            <td mat-cell *matCellDef="let element"> {{element.dosage}} </td>
+          </ng-container>
+        
+          <ng-container matColumnDef="quality">
+            <th mat-header-cell *matHeaderCellDef> Quality </th>
+            <td mat-cell *matCellDef="let element"> {{element.quality}} </td>
+          </ng-container>
+        
+          <ng-container matColumnDef="frequency">
+            <th mat-header-cell *matHeaderCellDef> Frequency </th>
+            <td mat-cell *matCellDef="let element"> {{element.frequency}} </td>
+          </ng-container>
+        
+          <ng-container matColumnDef="fillDate">
+            <th mat-header-cell *matHeaderCellDef> Fill Date </th>
+            <td mat-cell *matCellDef="let element"> {{element.fillDate}} </td>
+          </ng-container>
+        
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+</div>
+</div>

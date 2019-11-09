@@ -1,0 +1,267 @@
+{
+  "Dome": "AccountManagement",
+  "fieldValues": [
+    {
+      "securityRoles": [
+        {
+          "securityRoleCode": "Read",
+          "securityRoleName": "Read"
+        },
+        {
+          "securityRoleCode": "ReadWrite",
+          "securityRoleName": "Read / Write"
+        },
+        {
+          "securityRoleCode": "Admin",
+          "securityRoleName": "Administrator"
+        }
+      ]
+    },
+    {
+      "additionalRoles": [
+        {
+          "addtlRoleCode": "All",
+          "addtlRoleName": "Select All"
+        },
+        {
+          "addtlRoleCode": "RCM",
+          "addtlRoleName": "Resident Center Manager"
+        }
+      ]
+    },
+    {
+      "engCenters": [
+        {
+          "engCenterCode": "All",
+          "engCenterName": "Select All"
+        },
+        {
+          "engCenterCode": "EC6",
+          "engCenterName": "Christchurch"
+        },
+        {
+          "engCenterCode": "Columbus",
+          "engCenterName": "Columbus"
+        },
+        {
+          "engCenterCode": "Delta Tech Ops",
+          "engCenterName": "Delta Tech Ops"
+        },
+        {
+          "engCenterCode": "EME",
+          "engCenterName": "EME"
+        },
+        {
+          "engCenterCode": "ESA",
+          "engCenterName": "ESA"
+        },
+        {
+          "engCenterCode": "F117 HMC",
+          "engCenterName": "F117 HMC"
+        },
+        {
+          "engCenterCode": "IHI",
+          "engCenterName": "IHI"
+        },
+        {
+          "engCenterCode": "LHT",
+          "engCenterName": "LHT"
+        },
+        {
+          "engCenterCode": "MTU",
+          "engCenterName": "MTU"
+        },
+        {
+          "engCenterCode": "Shanghai",
+          "engCenterName": "Shanghai"
+        },
+        {
+          "engCenterCode": "Turkey",
+          "engCenterName": "Turkey"
+        }
+      ]
+    },
+    {
+      "engGroups": [
+        {
+          "engGroupCode": "All",
+          "engGroupName": "Select All"
+        },
+        {
+          "engGroupCode": "CFM56-3",
+          "engGroupName": "CFM56-3"
+        },
+        {
+          "engGroupCode": "CFM56-5",
+          "engGroupName": "CFM56-5"
+        },
+        {
+          "engGroupCode": "CFM56-7",
+          "engGroupName": "CFM56-7"
+        },
+        {
+          "engGroupCode": "F117",
+          "engGroupName": "F117"
+        },
+        {
+          "engGroupCode": "GP7000",
+          "engGroupName": "GP7000"
+        },
+        {
+          "engGroupCode": "GE90",
+          "engGroupName": "GE90"
+        },
+        {
+          "engGroupCode": "PW1100G-JM",
+          "engGroupName": "PW1100G-JM"
+        },
+        {
+          "engGroupCode": "PW1500G",
+          "engGroupName": "PW1500G"
+        },
+        {
+          "engGroupCode": "PW1900G",
+          "engGroupName": "PW1900G"
+        },
+        {
+          "engGroupCode": "PW1900G",
+          "engGroupName": "PW1900G"
+        },
+        {
+          "engGroupCode": "PW2000",
+          "engGroupName": "PW2000"
+        },
+        {
+          "engGroupCode": "PW4000-94",
+          "engGroupName": "PW4000-94"
+        },
+        {
+          "engGroupCode": "PW4000-100",
+          "engGroupName": "PW4000-100"
+        },
+        {
+          "engGroupCode": "PW4000-112",
+          "engGroupName": "PW4000-112"
+        },
+        {
+          "engGroupCode": "V2500-A5",
+          "engGroupName": "V2500-A5"
+        },
+        {
+          "engGroupCode": "V2500-D5",
+          "engGroupName": "V2500-D5"
+        }
+      ]
+    },
+    {
+      "engCntrsGrps": [
+        {
+          "engCntrCode": "EC6",
+          "engCntrName": "Christchurch",
+          "engCntrGrps": [
+            {
+              "engCntrGrpCode": "Dart",
+              "engCntrGrpName": "Dart"
+            },
+            {
+              "engCntrGrpCode": "JT8D-200",
+              "engCntrGrpName": "JT8D-200"
+            },
+            {
+              "engCntrGrpCode": "JT8D-STD",
+              "engCntrGrpName": "JT8D-STD"
+            },
+            {
+              "engCntrGrpCode": "V2500-A1",
+              "engCntrGrpName": "V2500-A1"
+            },
+            {
+              "engCntrGrpCode": "V2500-A5",
+              "engCntrGrpName": "V2500-A5"
+            },
+            {
+              "engCntrGrpCode": "V2500-D5",
+              "engCntrGrpName": "V2500-D5"
+            }
+          ]
+        },
+        {
+          "engCntrCode": "EC1",
+          "engCntrName": "Columbus",
+          "engCntrGrps": [
+            {
+              "engCntrGrpCode": "F117",
+              "engCntrGrpName": "F117"
+            },
+            {
+              "engCntrGrpCode": "JT8D-200",
+              "engCntrGrpName": "JT8D-200"
+            },
+            {
+              "engCntrGrpCode": "JT8D-STD",
+              "engCntrGrpName": "JT8D-STD"
+            },
+            {
+              "engCntrGrpCode": "PW1100G-JM",
+              "engCntrGrpName": "PW1100G-JM"
+            },
+            {
+              "engCntrGrpCode": "PW1500G",
+              "engCntrGrpName": "PW1500G"
+            },
+            {
+              "engCntrGrpCode": "PW1900G",
+              "engCntrGrpName": "PW1900G"
+            },
+            {
+              "engCntrGrpCode": "PW2000",
+              "engCntrGrpName": "PW2000"
+            },
+            {
+              "engCntrGrpCode": "V2500-A1",
+              "engCntrGrpName": "V2500-A1"
+            },
+            {
+              "engCntrGrpCode": "V2500-A5",
+              "engCntrGrpName": "V2500-A5"
+            },
+            {
+              "engCntrGrpCode": "V2500-D5",
+              "engCntrGrpName": "V2500-D5"
+            }
+          ]
+        },
+        {
+          "engCntrCode": "EC102",
+          "engCntrName": "Delta Tech Ops",
+          "engCntrGrps": [
+            {
+              "engCntrGrpCode": "CFM56-3",
+              "engCntrGrpName": "CFM56-3"
+            },
+            {
+              "engCntrGrpCode": "CFM56-7",
+              "engCntrGrpName": "CFM56-7"
+            },
+            {
+              "engCntrGrpCode": "PW2000",
+              "engCntrGrpName": "PW2000"
+            },
+            {
+              "engCntrGrpCode": "PW4000-100",
+              "engCntrGrpName": "PW4000-100"
+            },
+            {
+              "engCntrGrpCode": "PW4000-112",
+              "engCntrGrpName": "PW4000-112"
+            },
+            {
+              "engCntrGrpCode": "PW4000-94",
+              "engCntrGrpName": "PW4000-94"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

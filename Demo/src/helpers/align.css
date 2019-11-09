@@ -1,0 +1,136 @@
+/**
+ * IPMF 
+ * Copyright 2015 Tempo 360 
+ * 
+ * Background image helper classes.
+ *
+ *
+ *  1. Basic Block Alignment
+ *  2. Vertical Alignment
+ *  3. Absolute
+ *  4. Float
+ */
+
+/* 1. Basic Block Alignment */
+.ipmf-align-center {
+    margin: auto !important;
+}
+
+.ipmf-align-h-center {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.ipmf-align-h-right {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+
+.ipmf-align-h-left {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+
+/* 2. Vertical Alignment */
+.ipmf-valign-middle {
+    vertical-align: middle !important;
+}
+
+.ipmf-valign-top {
+    vertical-align: top !important;
+}
+
+.ipmf-valign-bottom {
+    vertical-align: bottom !important;
+}
+
+.ipmf-valign-baseline {
+    vertical-align: baseline !important;
+}
+
+
+/* 3. Absolute */
+.ipmf-top,
+.ipmf-right,
+.ipmf-bottom,
+.ipmf-left,
+.ipmf-center,
+.ipmf-middle,
+.ipmf-center-middle {
+    position: absolute !important;
+}
+
+.ipmf-top {
+    top: 0 !important;
+}
+
+.ipmf-right {
+    right: 0 !important;
+}
+
+.ipmf-bottom {
+    bottom: 0 !important;
+}
+
+.ipmf-left {
+    left: 0 !important;
+}
+
+.ipmf-center,
+.ipmf-center-middle {
+    left: 50% !important;
+}
+
+.ipmf-middle,
+.ipmf-center-middle {
+    top: 50% !important;
+}
+
+.ipmf-center {
+    -webkit-transform: translateX(-50%) !important;
+        -ms-transform: translateX(-50%) !important;
+            transform: translateX(-50%) !important;
+}
+
+.ipmf-middle {
+    -webkit-transform: translateY(-50%) !important;
+        -ms-transform: translateY(-50%) !important;
+            transform: translateY(-50%) !important;
+}
+
+.ipmf-center-middle {
+    -webkit-transform: translateX(-50%) translateY(-50%) !important;
+        -ms-transform: translateX(-50%) translateY(-50%) !important;
+            transform: translateX(-50%) translateY(-50%) !important;
+}
+
+/* 4. Float */
+.ipmf-float-right {
+    float: right !important;
+}
+
+.ipmf-float-left {
+    float: left !important;
+}
+
+.ipmf-no-float {
+    float: none !important;
+}
+
+.ipmf-clear-both {
+    clear: both !important;
+}
+
+.ipmf-clear-right {
+    clear: right !important;
+}
+
+.ipmf-clear-left {
+    clear: left !important;
+}
+
+.ipmf-no-clear {
+    clear: none !important;
+}
+
