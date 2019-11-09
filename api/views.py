@@ -71,22 +71,3 @@ class stockValueView(APIView):
 		    row["CURRENT MARKET PRICE"] = cmp
 		    resp.append(row)
 		return Response(resp)
-	# def get(self,request,isin=None):
-	# 	path = os.path.join(settings.BASE_DIR,"api","data.xlsx") 
-	# 	equity_holding = pd.read_excel(path,sheet_name="Equity Holdings")
-	# 	equity_holding["totalEquityExposure"] = equity_holding['Holding Quantity']*equity_holding['Current Market Price']
-	# 	futures_holdings = pd.read_excel(path, sheet_name="Futures Holdings")
-	# 	nifty_index = pd.read_excel(path,sheet_name="NIFTY Index")
-	# 	bank_nifty_index = pd.read_excel(path, sheet_name="BANK NIFTY Index")
-	# 	itnifty_index = pd.read_excel(path, sheet_name="ITNIFTY Index")
-
-	# 	data = [
-	# 	{"stockname":1, "isisn":"ISIN","quantity":23},
-	# 	{"stockname":1, "isisn":"ISIN","quantity":23},
-	# 	{"stockname":1, "isisn":"ISIN","quantity":23}
-	# 	]
-	# 	data = [{"Unique Identifier":,"Level":,"Equity Name":,"Current Market Value:"}]
-	# 	return Response(data)
-
-
-
